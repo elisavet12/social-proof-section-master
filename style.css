@@ -1,3 +1,32 @@
+:root {
+  --Very-Dark-Magenta: hsl(300, 43%, 22%);
+  --Soft-Pink: hsl(333, 80%, 67%);
+  --Dark-Grayish-Magenta: hsl(303, 10%, 53%);
+  --light-grayish-magenta: hsl(300, 24%, 96%);
+  --white: hsl(0, 0%, 100%);
+}
+
 body {
   font-family: "Spartan";
+  font-size: 15px;
+  margin: 0px;
+  padding: 125px 162px 99px 165px;
+}
+
+.row-one {
+  display: flex;
+}
+
+.mainbox {
+  margin: 0px;
+  padding: 0px 71px 37px 0px;
+}
+
+.testimonial {
+  display: flex;
+  background-color: var(--Very-Dark-Magenta);
+}
+
+.rating {
+  background-color: var(--light-grayish-magenta);
 }
