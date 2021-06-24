@@ -10,7 +10,6 @@ body {
   font-family: "Spartan";
   font-size: 15px;
   margin: 0px;
-  padding: 125px 162px 99px 165px;
 }
 
 .row-one {
@@ -19,7 +18,7 @@ body {
 
 .mainbox {
   margin: 0px;
-  padding: 0px 71px 37px 0px;
+  padding: 125px 71px 37px 165px;
 }
 
 .testimonial {
