@@ -12,12 +12,18 @@ body {
   margin: 8px;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
 .row-one {
   display: flex;
+  flex-direction: row;
 }
 
 .mainbox {
-  margin: 0px;
+  margin: 10px;
   padding: 125px 71px 37px 165px;
 }
 
@@ -27,6 +33,11 @@ body {
 }
 
 .mainbox-text {
+}
+
+.rating {
+  background-color: var(--light-grayish-magenta);
+  padding: 125px 165px 103px 71px;
 }
 
 .testimonial {
@@ -46,12 +57,4 @@ body {
 .testimonial-three {
   background-color: var(--Very-Dark-Magenta);
   margin: 15px;
-}
-
-.rating {
-  background-color: var(--light-grayish-magenta);
-  padding: 125px 165px 103px 71px;
-}
-
-.rating-one {
 }
