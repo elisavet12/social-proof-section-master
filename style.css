@@ -9,7 +9,7 @@
 body {
   font-family: "Spartan";
   font-size: 15px;
-  margin: 8px;
+  margin: 76px;
 }
 
 .container {
@@ -38,23 +38,35 @@ body {
 .rating {
   background-color: var(--light-grayish-magenta);
   padding: 125px 165px 103px 71px;
+  display: flex;
+  flex-direction: column;
+}
+
+.rating-one {
 }
 
 .testimonial {
   display: flex;
+  justify-content: center;
 }
 
 .testimonial-one {
   background-color: var(--Very-Dark-Magenta);
   margin: 15px;
+  width: 349px;
+  height: 234px;
 }
 
 .testimonial-two {
   background-color: var(--Very-Dark-Magenta);
   margin: 15px;
+  width: 349px;
+  height: 234px;
 }
 
 .testimonial-three {
   background-color: var(--Very-Dark-Magenta);
   margin: 15px;
+  width: 349px;
+  height: 234px;
 }
