@@ -9,66 +9,84 @@
 body {
   font-family: "Spartan";
   font-size: 15px;
-  margin: 76px;
+  margin: 112px;
 }
 
 .container {
-  display: flex;
-  flex-direction: column;
-}
-
-.row-one {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  gap: 20px;
+  grid-template-areas:
+    "A A A A A B B B B B B B"
+    "A A A A A B B B B B B B"
+    "A A A A A B B B B B B B"
+    "A A A A A B B B B B B B"
+    "A A A A A B B B B B B B"
+    "A A A A A B B B B B B B"
+    "C C C C C C C C C C C C"
+    "C C C C C C C C C C C C"
+    "C C C C C C C C C C C C"
+    "C C C C C C C C C C C C"
+    "C C C C C C C C C C C C"
+    "C C C C C C C C C C C C";
+  row-gap: ;
 }
 
 .mainbox {
-  margin: 10px;
-  padding: 125px 71px 37px 165px;
+  grid-area: A;
+  padding: 129px 0px 48px 165px;
 }
 
 .mainbox-title {
   font-size: 47px;
   font-weight: 700;
+  color: var(--Very-Dark-Magenta);
 }
 
 .mainbox-text {
+  color: var(--Dark-Grayish-Magenta);
+  font-size: 20px;
 }
 
 .rating {
-  background-color: var(--light-grayish-magenta);
-  padding: 125px 165px 103px 71px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin: auto;
-}
-
-.rating-one {
+  grid-area: B;
+  justify-self: center;
+  padding: 129px 167px 87px 140px;
 }
 
 .testimonial {
+  grid-area: C;
   display: flex;
-  justify-content: center;
+  padding: 55px 167px 211px 129px;
 }
 
 .testimonial-one {
   background-color: var(--Very-Dark-Magenta);
-  margin: 15px;
-  width: 349px;
-  height: 234px;
+  margin: 31px;
+  padding: 20px;
+  border-radius: 5px;
 }
 
 .testimonial-two {
   background-color: var(--Very-Dark-Magenta);
-  margin: 15px;
-  width: 349px;
-  height: 234px;
+  margin: 31px;
+  padding: 20px;
+  border-radius: 5px;
 }
 
 .testimonial-three {
   background-color: var(--Very-Dark-Magenta);
-  margin: 15px;
-  width: 349px;
-  height: 234px;
+  margin: 31px;
+  padding: 20px;
+  border-radius: 5px;
+}
+.rating-one {
+  background-color: var(--light-grayish-magenta);
+}
+
+.rating-two {
+  background-color: var(--light-grayish-magenta);
+}
+
+.rating-three {
+  background-color: var(--light-grayish-magenta);
 }
