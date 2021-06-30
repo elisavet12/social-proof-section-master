@@ -196,3 +196,38 @@ body {
   padding: 29px 36px 44px 36px;
   margin: 0px;
 }
+@media only screen and (max-width: 1024px) {
+  .container {
+    grid-auto-flow: column;
+  }
+
+  .rating {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .rating-one {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .rating-two {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .rating-three {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .testimonial {
+    display: flex;
+    flex-direction: column;
+  }
+
+  container {
+    -ms-overflow-style: none;
+  }
+}
