@@ -13,7 +13,6 @@ body {
   background-image: url(./images/bg-pattern-top-desktop.svg);
 
   background-repeat: no-repeat;
-  display: flex;
 }
 
 .container {
@@ -23,9 +22,6 @@ body {
   max-width: 1110px;
   margin: auto;
   align-items: center;
-}
-
-.mainbox {
 }
 
 .mainbox-title {
@@ -83,7 +79,7 @@ body {
   margin-right: 33px;
 }
 
-.testimonial {
+.testimonials {
   grid-area: auto / span 2;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -134,7 +130,6 @@ body {
   width: 297px;
   height: 78px;
   text-align: left;
-
   margin-bottom: 0px;
   line-height: 1.5;
   padding-top: 30px;
@@ -185,7 +180,6 @@ body {
   width: 297px;
   height: 78px;
   text-align: left;
-
   margin-bottom: 0px;
   line-height: 1.5;
   padding-top: 30px;
@@ -241,5 +235,48 @@ body {
   line-height: 1.5;
   padding-top: 30px;
 }
+
 @media only screen and (max-width: 1024px) {
+  .mainbox-title {
+    padding-right: 0px;
+  }
+
+  .mainbox-text {
+    margin-right: 0px;
+    margin-bottom: 42px;
+    text-align: center;
+  }
+
+  .container {
+    display: block;
+    margin: 25px;
+    text-align: center;
+  }
+
+  .testimonials {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .ratings {
+    flex-wrap: wrap;
+  }
+
+  .rating {
+    flex-direction: column;
+    width: 375px;
+  }
+
+  .rating-one_stars {
+    margin-top: 15px;
+  }
+
+  .rating-two_stars {
+    margin-top: 15px;
+  }
+
+  .rating-three_stars {
+    margin-top: 15px;
+  }
 }
